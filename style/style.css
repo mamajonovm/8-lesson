@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.header__container .style {
+
+    background: url('../img/img.png'), lightgray 0px -132.453px / 100% 155.454% no-repeat;
+}
+
+.header__container .styleone {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1200px;
+    height: 687px;
+    flex-shrink: 0;
+    padding-top: 70px;
+}
+.header__container .styleone h1 {
+    width: 446px;
+    color: var(--, #FFF);
+    text-align: center;
+
+    /* Заголовок_H1 */
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 67.2px */
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.header__container .style .styleone p {
+    width: 537px;
+    color: var(--, #FFF);
+    text-align: center;
+
+    /* text_18px (medium) */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    padding-bottom: 50px;
+
+}
+
+.header__container .styleone button {
+    display: flex;
+    width: 270px;
+    padding: 22px 56px;
+    align-items: flex-start;
+    gap: 10px;
+    background:  #AE6B3C;
+    box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+    color:  #FFF;
+
+    /* text_botton */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 16px */
+    border: none;
+    transition: all 0.5;
+
+}
+.header__container .styleone button:hover {
+    background: #3f2403;
+}
+.header__container .styleone img {
+    padding-top: 150px;
+}
+.main__container {
+    width: 1600px;
+    height: 8597px;
+
+}
+
+.main__container h1 {
+    margin-left: 420px;
+    margin-top: 140px;
+    margin-bottom: 80px;
+    color: var(--, #282B22);
+
+    /* заголовок_H2 */
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 125%; /* 57.5px */
+    text-transform: uppercase;
+}
+
+.main__container .arrow {
+    display: flex;
+    align-items: center;
+}
+
+.main__container .rectangle {
+    padding-right: 95px;
+}
+
+.main__container .arrow p {
+    color: var(--, #3D4A39);
+
+/* Заголовок_H5 */
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 100%; /* 24px */
+}
+
+.main__container .rectangleone {
+    padding-right: 95px;
+}
